@@ -44,6 +44,7 @@ Pairing computer vision deduction with dynamic satellite mapping and sarcastic v
 
 ## 📁 System Architecture Overview
 
+```text
 geosass-ai/
 ├── server.ts                  # Express server: Gemini API orchestration & Neural TTS caching
 ├── src/
@@ -64,5 +65,3 @@ geosass-ai/
 │   └── index.css              # Glassmorphic utilities & animations
 ├── vite.config.ts             # Vite configuration with Tailwind integration
 └── package.json               # Full dependency specification
-
-
