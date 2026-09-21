@@ -1,7 +1,6 @@
 # GeoSass — Photo Geolocator AI 🌍🎯
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-geosass--ai.onrender.com-success?style=for-the-badge&logo=render)](https://geosass-ai.onrender.com)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=for-the-badge)](LICENSE)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Gmanjot4321/geosass-ai)
 
 > 🔗 **Live Demo:** [https://geosass-ai.onrender.com](https://geosass-ai.onrender.com)
