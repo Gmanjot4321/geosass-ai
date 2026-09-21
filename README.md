@@ -1,4 +1,9 @@
-# GeoSass — Photo Geolocator AI🌍📸
+# GeoSass — Photo Geolocator AI 🌍📸
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-geosass--ai.onrender.com-success?style=for-the-badge&logo=render)](https://geosass-ai.onrender.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Gmanjot4321/geosass-ai)
+
+> 🔗 **Live URL:** [https://geosass-ai.onrender.com](https://geosass-ai.onrender.com)
 
 GeoSass is a cutting-edge, AI OSINT investigator web application that pinpoints any photo's exact real-world location from city streets, cafes, and interiors to dirt, grass, and sky—complete with unhinged voice dubbing (via Gemini TTS & xAI Grok neural audio) and interactive satellite maps.
 
