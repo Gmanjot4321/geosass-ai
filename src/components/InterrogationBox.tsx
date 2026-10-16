@@ -220,7 +220,7 @@ export const InterrogationBox: React.FC<InterrogationBoxProps> = ({
         <div className="flex items-center gap-2">
           <MessageSquare className="w-4 h-4 text-purple-400" />
           <h3 className="text-xs font-mono font-bold uppercase text-white tracking-wide flex items-center gap-1.5">
-            <span>VOICE &amp; TEXT INTERROGATION &bull; DEBATE THE AI</span>
+            <span>VOICE &amp; TEXT DEBATE</span>
           </h3>
         </div>
 
@@ -234,7 +234,7 @@ export const InterrogationBox: React.FC<InterrogationBoxProps> = ({
       <div className="space-y-1.5 relative z-10">
         <span className="text-[10px] font-mono uppercase text-slate-400 flex items-center gap-1">
           <HelpCircle className="w-3 h-3 text-purple-400" />
-          Suggested Skeptic Probes:
+          Try asking:
         </span>
         <div className="flex flex-wrap gap-1.5">
           {SUGGESTED_QUESTIONS.map((sq, idx) => (
@@ -346,7 +346,7 @@ export const InterrogationBox: React.FC<InterrogationBoxProps> = ({
                 </div>
 
                 <span className="text-[10px] font-mono text-purple-400/80 animate-pulse hidden sm:inline">
-                  Consulting satellite &amp; OSINT archives...
+                  Thinking...
                 </span>
               </div>
             </div>

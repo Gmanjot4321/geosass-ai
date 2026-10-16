@@ -154,7 +154,7 @@ export const VOICE_OPTIONS: VoiceOption[] = [
   {
     id: 'sal',
     name: 'Sal (Grok Default)',
-    tagline: 'Iconic Grok Tesla AI voice: crisp diction, dry wit, and unhinged Brooklyn sarcasm',
+    tagline: 'Crisp diction, dry wit, and Brooklyn sarcasm',
     gender: 'Male',
     vibe: '🚗 Grok Sal',
     badge: 'Flagship Voice',
@@ -162,7 +162,7 @@ export const VOICE_OPTIONS: VoiceOption[] = [
   {
     id: 'ara',
     name: 'Ara (Grok Expressive)',
-    tagline: 'Razor-sharp, witty female persona with supreme confidence & playful mockery',
+    tagline: 'Sharp, witty, and confident, with playful mockery',
     gender: 'Female',
     vibe: '💅 Grok Ara',
     badge: 'Expressive Diva',
@@ -170,7 +170,7 @@ export const VOICE_OPTIONS: VoiceOption[] = [
   {
     id: 'rex',
     name: 'Rex (Grok Cynic)',
-    tagline: 'Deep, blunt, gravelly deadpan investigator who pulls zero punches',
+    tagline: 'Deep, blunt, gravelly deadpan investigator who pulls no punches',
     gender: 'Male',
     vibe: '🕶️ Grok Rex',
     badge: 'Deadpan OSINT',
@@ -178,7 +178,7 @@ export const VOICE_OPTIONS: VoiceOption[] = [
   {
     id: 'eve',
     name: 'Eve (Grok Conversational)',
-    tagline: 'Natural, smooth conversational delivery with sly roasts and effortless charisma',
+    tagline: 'Smooth conversational delivery with sly roasts and charisma',
     gender: 'Female',
     vibe: '🎙️ Grok Eve',
     badge: 'Natural Flow',

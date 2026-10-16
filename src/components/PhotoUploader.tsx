@@ -147,7 +147,7 @@ export const PhotoUploader: React.FC<PhotoUploaderProps> = ({
           </div>
           <div>
             <h2 className="text-xs font-mono font-bold uppercase tracking-wider text-rose-300 flex items-center gap-1.5">
-              <span>Try To Stump The AI &bull; Upload Any Photo</span>
+              <span>Try to stump the AI &bull; Upload any photo</span>
             </h2>
             <p className="text-[11px] text-slate-400">
               Think you're off the grid? Upload a blurry street, cafe corner, or reflection and watch it get pinned.
@@ -205,9 +205,9 @@ export const PhotoUploader: React.FC<PhotoUploaderProps> = ({
           <div className="flex items-center justify-between text-xs">
             <span className="font-mono text-pink-300 font-semibold flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5 text-pink-400" />
-              Suspect Landmark or City Hint (Optional):
+              Landmark or city hint (optional):
             </span>
-            <span className="text-[10px] text-slate-400 font-mono">Calibrates satellite accuracy</span>
+            <span className="text-[10px] text-slate-400 font-mono">Helps narrow it down</span>
           </div>
           <input
             id="context-hint-input"
@@ -281,10 +281,10 @@ export const PhotoUploader: React.FC<PhotoUploaderProps> = ({
             <div className="space-y-1.5 max-w-md">
               <div className="flex items-center justify-center gap-2 text-pink-300 font-mono text-xs font-bold uppercase tracking-wider">
                 <Loader2 className="w-4 h-4 animate-spin" />
-                <span>Multimodal Vision OSINT In Progress...</span>
+                <span>Analyzing photo...</span>
               </div>
               <p className="text-xs text-slate-300">
-                Scanning architecture, sun shadows, street infrastructure &amp; civil markers across world databases.
+                Scanning architecture, shadows, street signs, and landmarks...
               </p>
             </div>
 
