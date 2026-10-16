@@ -229,7 +229,7 @@ export default function App() {
           biome: data.biome || 'Analyzed Biome',
           soilType: data.soilType || 'Identified Material',
           clues: data.clues || [],
-          sassyMonologue: cleanSpokenDialogue(data.sassyMonologue) || 'Location identified with high-precision satellite accuracy.',
+          sassyMonologue: cleanSpokenDialogue(data.sassyMonologue) || 'Location identified from the photo.',
           imageThumbnail: base64Image,
           detectTimeMs: data.detectTimeMs,
         };
@@ -340,7 +340,7 @@ export default function App() {
                 </h1>
               </div>
               <p className="text-xs text-slate-400">
-                Pinpoint any location on Earth from any photo—cafes, interiors, skylines, streets, food, reflections &amp; dirt—with unhinged sassy dubbing
+                Pinpoint any location on Earth from a photo—cafes, interiors, skylines, streets, food, reflections, dirt—with sassy voice commentary
               </p>
             </div>
           </div>
@@ -460,10 +460,10 @@ export default function App() {
               <Sparkles className="w-7 h-7 text-pink-400 animate-pulse" />
             </div>
             <h3 className="text-base font-semibold text-slate-100 font-mono tracking-wide">
-              Dare To Test The Locator?
+              Dare to test the locator?
             </h3>
             <p className="text-xs text-slate-400 max-w-lg mx-auto leading-relaxed">
-              Upload any photo above to challenge the locator. The satellite radar, coordinates, and roaster voice will activate immediately.
+              Upload a photo to challenge the locator. The radar, coordinates, and roast commentary kick in right away.
             </p>
           </div>
         )}
@@ -471,7 +471,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="border-t border-white/10 bg-slate-950/80 backdrop-blur-md py-4 text-center text-xs text-slate-500 relative z-10">
-        GeoSass &bull; Autonomous Multimodal Forensic OSINT &bull; Neural Grok Voice Synthesis
+        GeoSass &bull; Photo Geolocation &bull; Voice Roasts
       </footer>
     </div>
   );

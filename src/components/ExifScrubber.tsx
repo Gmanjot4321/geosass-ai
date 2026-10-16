@@ -62,8 +62,8 @@ export const ExifScrubber: React.FC<ExifScrubberProps> = ({
             {exifData.hasGps && !isPurged
               ? 'Raw photo file includes embedded GPS tags'
               : isPurged
-              ? 'File header sanitized — Pure visual reasoning test'
-              : 'Photo has no GPS tags — Evaluated strictly via visual cues'}
+              ? 'File cleaned — judging by visuals only'
+              : 'No GPS tags — judging by visuals only'}
           </span>
         </div>
 

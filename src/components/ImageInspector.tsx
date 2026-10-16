@@ -64,7 +64,7 @@ export const ImageInspector: React.FC<ImageInspectorProps> = ({
         <div className="flex items-center gap-2">
           <Crosshair className="w-4 h-4 text-pink-400" />
           <span className="text-xs font-mono font-bold tracking-wider text-pink-400 uppercase">
-            FORENSIC OSINT IMAGE INSPECTOR
+            IMAGE INSPECTOR
           </span>
         </div>
 

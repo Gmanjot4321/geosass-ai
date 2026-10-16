@@ -343,7 +343,7 @@ export const AgentDubberBox: React.FC<AgentDubberBoxProps> = ({
           }}
           disabled={isLoadingAnalysis}
           className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold transition-colors cursor-pointer disabled:opacity-50 ml-auto"
-          title="Re-run AI Forensic Vision Geolocation"
+          title="Re-run geolocation"
         >
           {isLoadingAnalysis ? (
             <Loader2 className="w-3.5 h-3.5 animate-spin text-rose-400" />
