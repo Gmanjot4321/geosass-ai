@@ -1,3 +1,4 @@
+// GeoSass entry point: mounts the photo geolocation dashboard.
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';
