@@ -83,7 +83,7 @@ export const ImageInspector: React.FC<ImageInspectorProps> = ({
             }`}
           >
             <ZoomIn className="w-3.5 h-3.5" />
-            {isMagnifierActive ? 'Exit Loupe Mode' : '2.5x Micro Loupe'}
+            {isMagnifierActive ? 'Exit Loupe Mode' : '3.5x Micro Loupe'}
           </button>
         </div>
       </div>
